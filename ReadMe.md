@@ -15,3 +15,4 @@ Finally, the data is collapsed using ddply to find averages for each Subject acr
 The resulting data frame is stored as a .txt file.
 
 
+
