@@ -1,9 +1,11 @@
-The run_analysis funcion is used to perform an initial analysis on the data obtained by Non Linear Complex Systems Laboratory of Universit‡ degli Studi di Genova.
+The run_analysis funcion is used to perform an initial analysis on the data obtained by Non Linear Complex Systems Laboratory of Universit√† degli Studi di Genova.
 The function first extracts data about:
-ï	Activities
-ï	Features
-ï	Test data (contained in 3 files)
-ï	Train data (contained in 3 files)
+
+‚Ä¢	Activities
+‚Ä¢	Features
+‚Ä¢	Test data (contained in 3 files)
+‚Ä¢	Train data (contained in 3 files)
+
 All of this data is contained in .txt files and read.table() is used for data extraction.
 The data (now stored as data frame in R) are then joined into one large data frame using cbind and rbind.
 Features vector is used to name columns in the data frame.
